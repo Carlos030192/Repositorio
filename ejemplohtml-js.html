@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejmeplos de javascipt</title>
+</head>
+
+<body>
+
+    <script>
+        /* var nombre = 'Carlos';
+                                                                                                                                                                var edad = 28;
+
+                                                                                                                                                                document.write('Hola Mundo');
+                                                                                                                                                                document.write(nombre);*/
+
+        var numero1 = parseInt(window.prompt('Ingrese el valor de la division 1:'));
+        var numero2 = parseInt(window.prompt('Ingrese el valor de la division 2:'));
+        var resultado;
+        var resultado1;
+        var resultado2;
+        var resultado3;
+
+
+        // alert('Hola')
+
+        // document.write('division');
+        // document.write('<br>');
+
+        function division(numero1, numero2) {
+            resultado = numero1 / numero2;
+            return resultado;
+        }
+        division(numero1, numero2)
+        document.write('El resultado de la division es ', resultado);
+
+        // document.write('multiplicacion');
+        document.write('<br>');
+
+        function multiplicacion(numero1, numero2) {
+            resultado = numero1 * numero2;
+            return resultado;
+        }
+        multiplicacion(numero1, numero2)
+        document.write('El resultado de la multiplicacion es ', resultado);
+
+        // document.write('suma');
+        document.write('<br>');
+
+        function suma(numero1, numero2) {
+            resultado = numero1 + numero2;
+            return resultado;
+        }
+        suma(numero1, numero2)
+        document.write('El resultado de la suma es ', resultado);
+
+        // document.write('resta');
+        document.write('<br>');
+
+        function resta(numero1, numero2) {
+            resultado = numero1 - numero2;
+            return resultado;
+        }
+        resta(numero1, numero2)
+        document.write('El resultado de la resta es ', resultado);
+    </script>
+
+</body>
+
+</html>
